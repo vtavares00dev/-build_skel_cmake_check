@@ -21,12 +21,6 @@ MACRO_ENSURE_OUT_OF_SOURCE_BUILD("${PROJECT_NAME} requires an out of source buil
 ADD_SUBDIRECTORY(src)
 ADD_SUBDIRECTORY(doc)
 
-# enable unit testing with cmocka framework, if found
-# IF(CMOCKA_FOUND AND UNIT_TESTING)
-#     INCLUDE(AddCMockaTest)
-#     ADD_SUBDIRECTORY(tests)
-# ENDIF(CMOCKA_FOUND AND UNIT_TESTING)
-
 # if UNIT_TESTING is ON in DefineOptions.cmake, add tests dir
 if(UNIT_TESTING)
         ENABLE_TESTING()
