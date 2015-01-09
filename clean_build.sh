@@ -5,4 +5,6 @@ mkdir build
 cd build
 cmake ..
 make
+echo
+echo
 ctest --output-on-failure
