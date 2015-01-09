@@ -1,6 +1,5 @@
 PROJECT(To_Do_List C)
 
-SET(CMAKE_LEGACY_CYGWIN_WIN32 0)
 CMAKE_MINIMUM_REQUIRED(VERSION 2.8)
 
 # where to look for cmake modules, before ${CMAKE_ROOT}/Modules/ is checked
